@@ -10,7 +10,12 @@
     "paths": {
       "@utils": ["utils/index.ts"],
       "@utils/*": ["utils/*"]
-    }
+    },
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "types": [
+      "reflect-metadata"
+    ]
   },
   "include": ["src/**/*"]
-} 
+}

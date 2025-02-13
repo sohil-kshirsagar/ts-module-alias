@@ -1,3 +1,5 @@
+import 'reflect-metadata';
+
 import { logger } from '@utils/logger';
 
 function main() {
@@ -6,4 +8,4 @@ function main() {
   logger.info('Server is running!');
 }
 
-main(); 
+main();

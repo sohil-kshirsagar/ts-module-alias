@@ -12,6 +12,7 @@
   "devDependencies": {
     "typescript": "^5.0.0",
     "ts-node": "^10.9.1",
-    "@types/node": "^18.0.0"
+    "@types/node": "^18.0.0",
+    "reflect-metadata": "^0.1.13"
   }
 } 
