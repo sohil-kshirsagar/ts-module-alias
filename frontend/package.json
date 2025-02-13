@@ -1,0 +1,17 @@
+{
+  "name": "simple-ts-repo",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register src/server.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "tsconfig-paths": "^4.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.1",
+    "@types/node": "^18.0.0"
+  }
+}
