@@ -8,8 +8,8 @@
     "esModuleInterop": true,
     "baseUrl": "./src",
     "paths": {
-      "@utils/*": ["utils/*"],
-      "@utils": ["utils"]
+      "@utils": ["utils/index.ts"],
+      "@utils/*": ["utils/*"]
     }
   },
   "include": ["src/**/*"]
